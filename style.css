@@ -596,6 +596,8 @@ a:hover, a:active {
     .single-portfolio {
         padding-top: 45px;
     }
+	
+	
 }
 
 @media screen and (min-width: 992px) {
@@ -734,7 +736,7 @@ a:hover, a:active {
         line-height: 1;
     }
 	
-	.kamrul-logo img {
+	.kamrul-header-logo img{
 		width: 30% !important;
 	}
 }
@@ -743,7 +745,6 @@ a:hover, a:active {
     .blog-page .blog-content .entry-content h3 a {
         font-size: 1.5rem;
     }
-	
 }
 
 @media screen and (min-width: 768px) {
@@ -758,10 +759,6 @@ a:hover, a:active {
     .blog-page .blog-content .entry-content h3::before {
         left: -50px ;
     }
-	
-	.kamrul-logo img {
-		width: 30%;
-	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -1097,14 +1094,14 @@ a:hover, a:active {
     color: #bfbfbf;
 }
 
-
-.kamrul-header{
-	padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
+.kamrul-header-logo img{
+	width: 15%;
+    padding: 20px 0;
 }
 
-.kamrul-logo img{
-	width: 10%;
-    padding-top: 20px;
+.kamrul-header-title h2{
+	    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
